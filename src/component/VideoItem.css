@@ -1,0 +1,43 @@
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item img {
+  max-width: 200px;
+  max-height: 105px;
+}
+.video-item .content {
+  padding: 0px 5px 0px 10px;
+}
+
+.video-item .content .header {
+  font-size: 13px;
+  color: blue;
+}
+.video-item .content .channel-title {
+  font-size: 13px;
+  color: silver;
+}
+.video-item .content .description {
+  font-size: 13px;
+  color: chocolate;
+}
+h4.ui.header {
+  font-size: 20px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(200, 200, 200, 1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: inset 0 0 6px rgba(90, 90, 90, 0.7);
+}
